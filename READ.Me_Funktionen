@@ -1,0 +1,88 @@
+Funktionen vom Projekt
+
+Package analyse
+- Supertyp (abstrakteKlasse) mit Methode getKontraktNr und getAbrufNr erstellen.
+- Ggf. können auch alle Analysis Klassen in einer zusammengefasst werden.
+--------------------------------------
+Method getKontrakt
+- ggf. Hilfsclasse erstellen mit Methoden searchDok, searchHilDir, searchExcelFile
+
+---------------------------------------
+We Package
+- Eine Übergeordnete Klasse erstellen
+
+------------------------------------------
+WeGlsMail
+- Finden vom KontraktNr kann noch verbessert werden. Siehe Quellcode Kommentar Ende
+
+----------------------------------------
+
+DocTypesDetection
+- Anstatt if else Abfrage switch case
+
+------------------------------------------
+PDF
+- Funktionen von PDFAbruf in PDF ziehen (Alternative ist SuperKlass und Parameter übergeben)
+=> Es müssen die Attribute Überschrieben werden in der subclass => verstecken (nicht überschreiben)
+=> Kompliziert wird später gemacht
+
+
+
+Optional
+- (Ausrichtung erkennen)
+- (Drehen)
+- (Vorbearbeiten => ImageProcessing)
+- Zugriff Überprüfen ob PKI Karte Verschlüsselung geladen hat sonst zugriffs fehler
+- Drucken
+- Teilen
+
+Erledigt
+- Namen auslesen (Nummer erkennen)
+- Umbennen (File Klasse als Funktion enthalten)
+- Kopieren Ablegen (File Klasse als Funktion enthalten)
+- Überprüfen ob file schon da ist
+-------------------------------------------
+
+Ordner Struktur
+- Kopieren und Ablegen (File Klasse als Funktion enthalten)
+- Überprüfen ob file schon da ist (File Klasse als Funktion enthalten)
+- Umbennen (File Klasse als Funktion enthalten)
+- Überprüfen ob Ordner da ist # Erledigt
+- Ordner anlegen
+- Verknüpfung erstellen
+
+Optional
+- Gesamte Ordner Strukturanlegen
+-------------------------------------------
+
+Excel
+- Fehler wenn letze Zeile ist bzw. Zeile nicht vorhanden lösen (Wenn Tabelle am Ende ist)
+( Eine Zelle die Formatiert ist, ist nicht bei der Funktion cell.get ungleich Null => Sie kann beschrieben werden
+  und verliert nicht ihr format (Farbe größe etc..). Wenn man eine neue (unformatiert also außerhalb einer erstellten Tab)
+  dann bekommt man als Rückgabewert Null => man kann diese nicht beschreiben. Mit der Funktion create wird aber das Format gelöscht)
+
+
+- Format einer Zeile auslesen und schreiben
+- Zeile durchsuchen => Index Spalte
+- Zeilen beschreiben (Vorhandene Tabelle muss dabei erweitert werden)
+- Letzte Zeile in Tabelle bestimmen
+
+Optional
+-------------------------------------------
+
+GUI
+- https://pixelduke.com/java-javafx-theme-jmetro/
+- https://pixelduke.com/2018/06/11/javas-metro-theme-recap-and-new-version/
+- Über jmetro versuchen
+- Java FX Themes versuchen
+- Default folder ändern
+- Selecting file
+- Flow Layout
+- Progress Bar
+- Textbox (mit Defaultwerten)
+-
+
+--------------------------------------------
+Tess4J
+
+- Erkennen ob alle Übergebenen Datein auch Datein vom Zulässigen format sind und nicht z.B. Folder

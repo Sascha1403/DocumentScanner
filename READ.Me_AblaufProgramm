@@ -1,0 +1,8 @@
+Geplanter Ablauf
+
+1. Array von Files erstellen
+2. Erstellen von datastring der PDF Dateien
+3. Erkennen um welche PDF es sich handelt
+4. Elemente in der PDF erkennen
+5. Excel Tabellen auf Basis der Elemente befüllen
+6. Dateien abspeichern
